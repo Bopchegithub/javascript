@@ -1,0 +1,39 @@
+<html>
+<body>
+<script>
+var empid=1001;
+var empname="Paul";
+var bsalary=10000;
+var hra=bsalary*0.02;
+var ta =bsalary*0.01;
+var pf=bsalary*0.03;
+var esi= bsalary*0.025
+var gpay=bsalary+hra+ta+pf+esi;
+var npay=gpay-pf;
+document.write(                                             "Salary Breakup Application"         );
+document.write("<br>");
+document.write("================================================================ ");
+document.write("<br>");
+
+document.write("Employee id is                                             " +empid);
+document.write("<br>");
+document.write("Employee name is                                           " +empname);
+document.write("<br>");
+document.write("Employee Basic Salary is                                      " +bsalary);
+document.write("<br>");
+
+document.write("HRA is                                                      " +hra);
+document.write("<br>");
+document.write("TA is                                                         " +ta);
+document.write("<br>");
+document.write("PF  is                                                        " +pf);
+document.write("<br>");
+document.write("ESI  is                                                      " +esi);
+document.write("<br>");
+document.write("Gross Salary is                                                " +gpay);
+document.write("<br>");
+document.write("Net pay is                                                      " +npay);
+document.write("<br>");
+</script>
+</body>
+</html>
